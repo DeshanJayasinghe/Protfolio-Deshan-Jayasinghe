@@ -1,7 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", // Set the root directory for resolving imports
     "paths": {
-      "@/*": ["./*"]
+      "@/*": ["./*"] // Alias `@/` to the root directory
     }
-  }
+  },
+  "include": ["**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx", "tailwind.config.js"], // Include all JavaScript and TypeScript files
+  "exclude": ["node_modules"] // Exclude `node_modules` to avoid conflicts
 }
