@@ -1,14 +1,14 @@
 "use client"
 
-import {FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs} from 'react-icons/fa'
-import { SiTailwindcss, SiNextdotjs } from 'react-icons/si';
+import { FaHtml5, FaCss3, FaJs, FaReact, FaFigma, FaNodeJs, FaGitAlt, FaDocker } from 'react-icons/fa';
+import { SiTailwindcss, SiNextdotjs, SiPostman, SiKubernetes, SiGithubactions, SiLaravel, SiSpring, SiFlutter, SiMysql, SiMongodb, SiSqlite } from 'react-icons/si';
 
 
 
 //about data
 const about = {
   title: 'About Me',
-  description: "I'm a Full Stack Developer with a passion for building beautiful and functional web applications. I have experience working with modern web technologies such as React, Node.js, and Tailwind CSS. I'm always looking to learn new things and improve my skills.",
+  description: "Hands-on experience in developing 20+ full-stack web and mobile applications with proven skills in frontend/backend development and UI/UX integration.",
   info: [
     {
       fieldName: "Name",
@@ -20,7 +20,7 @@ const about = {
     },
     {
       fieldName: "Experience",
-      fieldValue: "3+ Years"
+      fieldValue: "1+ Years"
     },
     {
       fieldName: "E-mail",
@@ -46,126 +46,121 @@ const experience = [
   {
     icon: "/assets/resume/badge.svg",
     title: "My experience",
-    description: "I have 3+ years of experience working as a Full Stack Developer.",
+    description: "Hands-on experience in developing 20+ full-stack web and mobile applications with proven skills in frontend/backend development and UI/UX integration.",
     items: [
       {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present"
+        company: 'API & GenAI Tour Sri Lanka 2025',
+        position: 'Vice Chairperson',
+        duration: 'Jan 2025 - Dec 2025'
       },
       {
-        company: "Web design studio",
-        position: "Frontend Developer Intern",
-        duration: "2022 - Present"
-        },
-        {
-          company: "E-commerce Startup",
-          position: "Freelance web developer",
-          duration: "2022 - Present"
-          },
-          {
-            company: "Tech Academy",
-            position: "Teaching Assistant",
-            duration: "2022 - Present"
-            },
-            {
-              company: "Digital Agency",
-              position: "UI/UX Designer",
-              duration: "2022 - Present"
-              },
-              {
-                company: "Software Development Firm",
-                position: "Junior Developer",
-                duration: "2022 - Present"
-                }
+        company: 'Freelancer',
+        position: 'Freelance Developer / Assignment Mentor',
+        duration: 'Oct 2022 - Feb 2025'
+      },
+      {
+        company: 'SLIIT SE Student Community',
+        position: 'SESC Active Member',
+        duration: '2023 - Present'
+      },
+      {
+        company: 'SLIIT LEO Club',
+        position: 'Volunteer & Member',
+        duration: '2023 - Present'
+      }
     ]
   }
 ];
 
 //education data
 
+// education data
 const education = [
   {
-    icon: "/assets/resume/cap.svg",
-    title: "My education",
-    description: "I have 3+ years of experience working as a Full Stack Developer.",
+    icon: '/assets/resume/cap.svg',
+    title: 'My education',
+    description:
+      'Pursuing a BSc (Hons) in IT (Software Engineering) at SLIIT, alongside multiple certifications in AI, web development, and mobile application frameworks.',
     items: [
       {
-      institution: "Online course platform",
-      degree: "Full Stack web development bootcamp",
-      duration: "2023"
+        institution: 'SLIIT',
+        degree: 'BSc(Hons) in IT (SE)',
+        duration: 'Oct 2022 - Oct 2026'
       },
       {
-        institution: "Codecademy",
-        degree: "Front end track",
-        duration: "2022"
-        },
-        {
-          institution: "Online course",
-          degree: "Programming Course",
-          duration: "2020-2021"
-          },
-          {
-            institution: "Tech Institute",
-            degree: "Certified web developer",
-            duration: "2023"
-            },
-            {
-              institution: "Design school",
-              degree: "Diploma in graphic design",
-              duration: "2019-2021"
-              },
-              {
-                institution: "Community college",
-                degree: "Associate degree in computer science",
-                duration: "2023-2024"
-                },
-     
+        institution: 'Microsoft / Azure AI',
+        degree: 'RAG & Copilot Chatbot ',
+        duration: '2024'
+      },
+      {
+        institution: 'Pieces for Developers',
+        degree: 'AI Development',
+        duration: '2024'
+      },
+      {
+        institution: 'Kegalu Vidyalaya',
+        degree: 'GCE Advanced Level - Physical Science(CCS)',
+        duration: '2019 - 2022'
+      },
+      {
+        institution: 'Kegalu Vidyalaya',
+        degree: 'GCE Ordinary Level - English Medium(8A, 1B)',
+        duration: '2016 - 2018'
+      }
     ]
   }
 ];
 
-//skills data
+
 const skills = [
   {
-    title: "My skills",
-    description: "I have 3+ years of experience working as a Full Stack Developer.",
+    title: "Programming Languages",
+    description: "Experienced in modern and object-oriented programming languages for backend and frontend development.",
     skillList: [
-      {
-        icon: <FaHtml5 />,
-        name: "HTML 5"
-      },
-      {
-        icon: <FaCss3 />,
-        name: "css 3"
-      },
-      {
-        icon: <FaJs />,
-        name: "javascript"
-      },
-      {
-        icon: <FaReact />,
-        name: "react.js"
-      },
-      {
-        icon: <SiNextdotjs />,
-        name: "Next.js"
-      },
-      {
-        icon: <SiTailwindcss />,
-        name: "tailwind.css"
-      },
-      {
-        icon: <FaNodeJs />,
-        name: "Node.js"
-      },
-      {
-        icon: <FaFigma />,
-        name: "figma"
-      },
+      { icon: <FaJs />, name: "JavaScript" },
+      { icon: <FaHtml5 />, name: "HTML5" },
+      { icon: <FaCss3 />, name: "CSS3" },
+      { icon: <FaNodeJs />, name: "Node.js" },
+      { icon: <FaReact />, name: "React.js" },
+      { icon: <FaFigma />, name: "Figma" },
+      { icon: <SiNextdotjs />, name: "Next.js" },
+      { icon: <SiTailwindcss />, name: "Tailwind CSS" }
     ]
-  }
-]
+  },
+  {
+    title: "Frameworks & Technologies",
+    description: "Hands-on experience with modern frameworks, server-side technologies, and scalable systems.",
+    skillList: [
+      { icon: <FaNodeJs />, name: "Express.js" },
+      { icon: <SiLaravel />, name: "Laravel" },
+      { icon: <SiSpring />, name: "Spring Boot" },
+      { icon: <SiFlutter />, name: "Flutter" },
+      { icon: <FaReact />, name: "OSGi Framework" },
+      { icon: <FaReact />, name: "JWT Auth" }
+    ]
+  },
+  {
+    title: "Databases",
+    description: "Efficient in both relational and non-relational databases for secure data storage and retrieval.",
+    skillList: [
+      { icon: <SiMysql />, name: "MySQL" },
+      { icon: <SiMongodb />, name: "MongoDB" },
+      { icon: <SiSqlite />, name: "SQLite" }
+    ]
+  },
+  {
+    title: "Tools & DevOps",
+    description: "Version control, containerization, and tools used in development workflows and testing.",
+    skillList: [
+      { icon: <FaGitAlt />, name: "Git" },
+      { icon: <FaDocker />, name: "Docker" },
+      { icon: <SiPostman />, name: "Postman" },
+      { icon: <SiGithubactions />, name: "CI/CD" },
+      { icon: <SiKubernetes />, name: "Kubernetes" }
+    ]
+  },
+];
+
 
 import {Tabs, TabsContent, TabsList, TabsTrigger} from '@/components/ui/tabs'
 
@@ -204,7 +199,7 @@ const Resume = () => {
       className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
     >
       <span className="text-accent">{item.duration}</span>
-      <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h3>
+      <h4 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">{item.position}</h4>
       <div className="flex items-center gap-3">
         {/* dot */}
         <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
@@ -248,36 +243,34 @@ const Resume = () => {
   </div>
                </TabsContent>
             {/* skills */}
-            <TabsContent value="skills" className="w-full h-full"> 
-            <div className="flex flex-col gap-[30px]">
-              <div className="flex flex-col gap-[30px] text-center xl:text-left">
-                <h3 className="text-4xl font-bold">
-                  {skills[0]?.title }
-                  </h3>
-                  <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">
-                  {skills[0]?.description }
-                  </p>
-                
-              </div>
-              <ul className="grid grid-cols-2 sm:grid-cols-3  md:grid-cols-4 gap-4 xl:gap-[30px]">
-                {skills[0]?.skillList.map((skill, index)=>{
-                  return <li key={index}>
-                    <TooltipProvider delayDuration={100}>
-                      <Tooltip>
-                        <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                          <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
-                        </TooltipTrigger>
-                        <TooltipContent>
-                          <p className="capitalize">{skill.name}</p>
-                        </TooltipContent>
-                      </Tooltip>
-                    </TooltipProvider>
-                  </li>
-                })}
-                  
-              </ul>
-              </div>  
-            </TabsContent>
+{/* skills */}
+<TabsContent value="skills" className="w-full h-full"> 
+  <div className="flex flex-col gap-[30px]">
+    {skills.map((section, sectionIndex) => (
+      <div key={sectionIndex} className="flex flex-col gap-[30px] text-center xl:text-left">
+        <h3 className="text-4xl font-bold">{section.title}</h3>
+        <p className="max-w-[600px] text-white/60 mx-auto xl:mx-0">{section.description}</p>
+        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 xl:gap-[30px]">
+          {section.skillList.map((skill, skillIndex) => (
+            <li key={skillIndex}>
+              <TooltipProvider delayDuration={100}>
+                <Tooltip>
+                  <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                    <div className="text-6xl group-hover:text-accent transition-all duration-300">{skill.icon}</div>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p className="capitalize">{skill.name}</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
+            </li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>  
+</TabsContent>
+
             {/* about */}
             <TabsContent value="about" className="w-full text-center xl:text-left"> 
             <div className="flex flex-col gap-[30px] ">

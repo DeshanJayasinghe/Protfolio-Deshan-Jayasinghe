@@ -7,25 +7,25 @@ const services = [
   {
     num: "01",
     title: "Web Development",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. voluptatum nisi minima saepe quo iure!.",
+    description: "Crafting responsive, fast, and scalable websites using modern technologies like Laravel, React, and Node.js.",
     href: ""
   },
   {
     num: "02",
-    title: "UI/ UX Design",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. voluptatum nisi minima saepe quo iure!.",
+    title: "Mobile App Development",
+    description: "Building cross-platform mobile apps using Flutter and Kotlin with seamless UI and smooth performance.",
     href: ""
   },
   {
     num: "03",
-    title: "Logo Design",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. voluptatum nisi minima saepe quo iure!.",
+    title: "UI/UX Design",
+    description: "Designing intuitive and visually engaging interfaces that enhance user experience and brand identity.",
     href: ""
   },
   {
     num: "04",
     title: "SEO",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. voluptatum nisi minima saepe quo iure!.",
+    description: "Improving website visibility with on-page optimization, keyword strategies, and performance enhancements.",
     href: ""
   },
 
